@@ -206,3 +206,63 @@
   suffix: Chameleon, Insulated
   components:
   - type: Insulated
+
+- type: entity
+  name: gunnery sergeants shockers
+  parent: [ClothingHandsBase, BaseToggleClothing, BaseSecurityContraband]
+  id: ClothingHandsGlovesGunnerySergeant
+  description: For cadets who are hard of hearing.
+  components:
+  - type: Sprite
+    sprite: _Starlight/Clothing/Hands/Gloves/gunnerysergeant.rsi
+    layers:
+    - state: icon
+      map: [ "enum.ToggleableVisuals.Layer" ]
+  - type: Clothing
+    sprite: _Starlight/Clothing/Hands/Gloves/gunnerysergeant.rsi
+    equippedPrefix: on
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
+          True: {state: icon_on}
+          False: {state: icon}
+  - type: ToggleClothing
+    action: ActionToggleKnuckleDustersStun
+  - type: ItemToggle
+    predictable: false
+    soundActivate:
+      collection: sparks
+      params:
+        variation: 0.250
+        volume: 5
+    soundDeactivate:
+      collection: sparks
+      params:
+        variation: 0.250
+        volume: 5
+  - type: Stunbaton
+    energyPerUse: 0
+  - type: ItemToggleMeleeWeapon
+    activatedDamage:
+      types:
+        Blunt: 0
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 8
+    bluntStaminaDamageFactor: 2.0
+    animation: WeaponArcFist
+  - type: StaminaDamageOnHit
+    damage: 35
+    sound: /Audio/Weapons/egloves.ogg
+  - type: StaminaDamageOnCollide
+    damage: 35
+    sound: /Audio/Weapons/egloves.ogg
+  - type: LandAtCursor # it deals stamina damage when thrown
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
