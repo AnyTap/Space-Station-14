@@ -70,6 +70,21 @@
       sprite: _Starlight/Objects/Misc/stamps.rsi
       state: stamp-brigmedic
 
+# Gunnery Sargeant stamp
+- type: entity
+  name: gunnery sargeant's rubber stamp
+  parent: RubberStampBase
+  id: RubberStampGunnerySargeant
+  suffix: DO NOT MAP
+  components:
+    - type: Stamp
+      stampedName: "Gunnery Sargeant"
+      stampedColor: "#ae2e33"
+      stampState: "paper_stamp-gunnerysargeant"
+    - type: Sprite
+      sprite: _Starlight/Objects/Misc/stamps.rsi
+      state: stamp-gunnerysargeant
+
 # CC Division Stamps
 - type: entity
   name: central administration division rubber stamp
