@@ -299,10 +299,10 @@
     - state: default
     - sprite: *id-rsi
       state: stripe_top
-      color: &color-security-top "#cb0000"
+      color: *color-security-top
     - sprite: *id-rsi
       state: stripe_bottom
-      color: &color-security-bottom "#830000"
+      color: *color-security-bottom
     - sprite: *starlight-icon-rsi
       offset: *icon-offset
       state: GunnerySergeant
