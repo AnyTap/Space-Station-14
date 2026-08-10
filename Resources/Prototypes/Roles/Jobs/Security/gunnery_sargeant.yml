@@ -1,0 +1,57 @@
+- type: job
+  id: GunnerySargeant
+  name: job-name-gunny
+  description: job-description-gunny
+  playTimeTracker: JobGunnerySargeant
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 15h # Starlight
+    - !type:RoleTimeRequirement
+      role: JobDetective
+      time: 1h # Starlight-should know what what detectives atleast do
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 30h # Starlight-field leaders should have high sec experience
+    - !type:TraitsRequirement # Starlight
+      traits:
+        - Iterator
+        - Muted
+        - Blindness
+      inverted: true
+  weight: 5
+  startingGear: GunnerySargeantGear
+  icon: "JobIconGunnerySargeant"
+  supervisors: job-supervisors-hos
+  access:
+  - Security
+  - Brig
+  - armory
+  - Maintenance
+  - external
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: GunnerySargeantGear
+  equipment:
+    id: GunnerySargeantPDA
+    ears: ClothingHeadsetSecurity
+  storage:
+    back:
+    - Flash
+
+- type: chameleonOutfit
+  id: GunnerySargeantChameleonOutfit
+  job: GunnerySargeant
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatGunnerySargeant
+    mask: ClothingMaskGasSecurity
+    outerClothing: ClothingOuterCoatGunnerySargeant
+    jumpsuit: ClothingUniformJumpsuitGunnerySargeant
+    belt: ClothingBeltSecurity
+    # gloves: ClothingHandsGlovesCombat # Starlight
+    shoes: ClothingShoesBootsJack
