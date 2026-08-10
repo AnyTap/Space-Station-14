@@ -289,6 +289,27 @@
     job: DutyOfficer
 
 - type: entity
+  parent: [ IDCardStandard, BaseSecurityContraband ]
+  id: GunnerySargeantIDCard
+  name: gunnery sargeant ID card
+  components:
+  - type: Sprite
+    sprite: _Starlight/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - sprite: *id-rsi
+      state: stripe_top
+      color: &color-security-top "#cb0000"
+    - sprite: *id-rsi
+      state: stripe_bottom
+      color: &color-security-bottom "#830000"
+    - sprite: *starlight-icon-rsi
+      offset: *icon-offset
+      state: GunnerySargeant
+  - type: PresetIdCard
+    job: GunnerySargeant
+
+- type: entity
   parent: IDCardStandard
   id: KikiIDCard
   name: kiki's ID card
