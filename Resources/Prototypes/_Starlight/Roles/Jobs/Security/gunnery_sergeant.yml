@@ -26,9 +26,9 @@
   access:
   - Security
   - Brig
-  - armory
+  - Armory
   - Maintenance
-  - external
+  - External
   - Cryogenics
   special:
   - !type:AddImplantSpecial
