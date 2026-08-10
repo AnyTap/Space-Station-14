@@ -290,8 +290,8 @@
 
 - type: entity
   parent: [ IDCardStandard, BaseSecurityContraband ]
-  id: GunnerySargeantIDCard
-  name: gunnery sargeant ID card
+  id: GunnerySergeantIDCard
+  name: gunnery sergeant ID card
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -305,9 +305,9 @@
       color: &color-security-bottom "#830000"
     - sprite: *starlight-icon-rsi
       offset: *icon-offset
-      state: GunnerySargeant
+      state: GunnerySergeant
   - type: PresetIdCard
-    job: GunnerySargeant
+    job: GunnerySergeant
 
 - type: entity
   parent: IDCardStandard

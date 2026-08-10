@@ -235,11 +235,11 @@
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconGunnerySargeant
+  id: JobIconGunnerySergeant
   icon:
     sprite: *icon-rsi
-    state: GunnerySargeant
-  jobName: job-name-gunny
+    state: GunnerySergeant
+  jobName: job-name-gunnerysergeant
 
 # Service
 

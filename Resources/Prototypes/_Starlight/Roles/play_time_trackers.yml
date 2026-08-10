@@ -8,7 +8,7 @@
   id: JobDutyOfficer
 
 - type: playTimeTracker
-  id: JobGunnerySargeant
+  id: JobGunnerySergeant
 
 - type: playTimeTracker
   id: JobMagistrate
