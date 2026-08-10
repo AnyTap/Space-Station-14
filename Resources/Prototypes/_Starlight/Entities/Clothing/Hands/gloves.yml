@@ -226,7 +226,7 @@
     visuals:
       enum.ToggleableVisuals.Enabled:
         enum.ToggleableVisuals.Layer:
-          True: {state: icon_on}
+          True: {state: icon-on}
           False: {state: icon}
   - type: ToggleClothing
     action: ActionToggleKnuckleDustersStun
