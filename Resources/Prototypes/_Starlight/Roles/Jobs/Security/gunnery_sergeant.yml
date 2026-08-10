@@ -1,8 +1,8 @@
 - type: job
-  id: GunnerySargeant
-  name: job-name-gunny
-  description: job-description-gunny
-  playTimeTracker: JobGunnerySargeant
+  id: GunnerySergeant
+  name: job-name-gunnerysergeant
+  description: job-description-gunnerysergeant
+  playTimeTracker: JobGunnerySergeant
   requirements:
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
@@ -20,8 +20,8 @@
         - Blindness
       inverted: true
   weight: 5
-  startingGear: GunnerySargeantGear
-  icon: "JobIconGunnerySargeant"
+  startingGear: GunnerySergeantGear
+  icon: "JobIconGunnerySergeant"
   supervisors: job-supervisors-hos
   access:
   - Security
@@ -35,23 +35,23 @@
     implants: [ MindShieldImplant ]
 
 - type: startingGear
-  id: GunnerySargeantGear
+  id: GunnerySergeantGear
   equipment:
-    id: GunnerySargeantPDA
+    id: GunnerySergeantPDA
     ears: ClothingHeadsetSecurity
   storage:
     back:
     - Flash
 
 - type: chameleonOutfit
-  id: GunnerySargeantChameleonOutfit
-  job: GunnerySargeant
+  id: GunnerySergeantChameleonOutfit
+  job: GunnerySergeant
   hasMindShield: true
   equipment:
-    head: ClothingHeadHatGunnerySargeant
+    head: ClothingHeadHatGunnerySergeant
     mask: ClothingMaskGasSecurity
-    outerClothing: ClothingOuterCoatGunnerySargeant
-    jumpsuit: ClothingUniformJumpsuitGunnerySargeant
+    outerClothing: ClothingOuterCoatGunnerySergeant
+    jumpsuit: ClothingUniformJumpsuitGunnerySergeant
     belt: ClothingBeltSecurity
     # gloves: ClothingHandsGlovesCombat # Starlight
     shoes: ClothingShoesBootsJack
