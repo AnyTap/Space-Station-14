@@ -53,7 +53,7 @@
     stateDoorOpen: gunnerysergeant_open
     stateDoorClosed: gunnerysergeant_door
   - type: AccessReader
-    access: [["GunnerySergeant"]]
+    access: [["Armory"]]
 
 ## NanoTrasen Representatives
 #BSO
