@@ -773,9 +773,9 @@
   description: So the cadets know who to fear
   components:
   - type: Sprite
-    sprite: Resources/Textures/Clothing/Head/Hats/sergeant_drill_hat.rsi
+    sprite: _Starlight/Clothing/Head/Hats/sergeant_drill_hat.rsi
   - type: Clothing
-    sprite: Resources/Textures/Clothing/Head/Hats/sergeant_drill_hat.rsi
+    sprite: _Starlight/Clothing/Head/Hats/sergeant_drill_hat.rsi
   - type: Tag
     tags:
     - PetWearable
