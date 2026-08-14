@@ -204,6 +204,11 @@
           1.0
         ]
       ]
+    },
+    {
+      "name": "pda-gunnerysergeant",
+      "copyright": "Taken from tgstation, resprited into Gunnery Sergeant by AnyTap (GitHub)",
+      "license": "CC-BY-SA-3.0"
     }
   ]
 }
