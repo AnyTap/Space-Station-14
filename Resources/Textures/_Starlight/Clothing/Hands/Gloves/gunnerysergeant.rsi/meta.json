@@ -1,14 +1,14 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from cev-eris at commit https://github.com/discordia-space/CEV-Eris/commit/55d823b97dda098a1b2ee9edfca7155c753e456e. Inhand sprites by SeamLesss (Github)",
+  "copyright": "Trosling, icon based on powerglove.",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "icon"
+      "name": "icon-off"
     },
     {
       "name": "icon-on",

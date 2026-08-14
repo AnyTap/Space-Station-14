@@ -1,0 +1,9 @@
+# gloves
+- type: entity
+  parent: BaseAction
+  id: ActionToggleShockersStun
+  name: Toggle shockers
+  description: Toggles the shockers built in stun baton.
+  components:
+  - type: InstantAction
+    event: !type:ToggleActionEvent
