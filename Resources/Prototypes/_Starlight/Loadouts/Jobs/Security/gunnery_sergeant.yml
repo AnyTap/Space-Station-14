@@ -2,7 +2,7 @@
 - type: loadout
   id: GunnerySergeantDrillHat
   equipment:
-    head: ClothingHeadHatDrillGunnerySergeant
+    head: ClothingHeadHatSergeantDrillHat
 
 - type: loadout
   id: GunnerySergeantBeret
