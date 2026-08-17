@@ -192,17 +192,18 @@
   id: JobGunnerySergeant
   groups:
   - GunnerySergeantHead
-  - SecurityMask
+  - EliteSecurityMask
+  - GunnerySergeantNeck
   - GunnerySergeantJumpsuit
   - SecurityBackpack
-  - SecurityEyewear
-  - GunnerySergeantOuterClothing
-  - GunnerySergeantNeck
   - SecurityBelt
+  - GunnerySergeantOuterClothing
+  - SecurityEyewear
   - SecurityShoes
-  - SecurityGloves
-  - SecurityNonLethalWeapon
   - SurvivalExtended
+  - InsulsCombat
+  - SecurityNonLethalWeapon
+  - SecuritySidearm
   - Trinkets
   - Pins
   - Pens

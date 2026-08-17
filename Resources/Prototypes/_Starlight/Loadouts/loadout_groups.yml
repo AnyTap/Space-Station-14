@@ -1040,7 +1040,6 @@
   id: GunnerySergeantNeck
   name: loadout-group-gunnery-sergeant-neck
   minLimit: 0
-  defaultSelected: 1
   loadouts:
     - GunnerySergeantMantle
     - GunnerySergeantCloak
