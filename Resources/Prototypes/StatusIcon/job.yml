@@ -233,14 +233,6 @@
     state: Warden
   jobName: job-name-warden
 
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconGunnerySergeant
-  icon:
-    sprite: *icon-rsi
-    state: GunnerySergeant
-  jobName: job-name-gunnerysergeant
-
 # Service
 
 - type: jobIcon
