@@ -127,6 +127,7 @@
   - Detective
   - Warden
   - DutyOfficer # Starlight
+  - GunnerySergeant # Starlight
 
 - type: department
   id: Science
