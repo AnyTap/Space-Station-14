@@ -83,4 +83,9 @@
 - type: loadout
   id: GunnerySergeantMantle
   equipment:
-    neck: ClothingNeckMantleGunnerySergeant
+    neck: ClothingNeckMantleGunnerySergeanteffects:
+- !type:JobRequirementLoadoutEffect
+      requirement:
+        !type:RoleTimeRequirement
+        role: JobGunnerySergeant
+        time: 108000 #30 hrs
