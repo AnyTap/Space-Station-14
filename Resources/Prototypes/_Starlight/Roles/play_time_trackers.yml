@@ -103,6 +103,9 @@
 - type: playTimeTracker
   id: JobMakeshiftID
 
+- type: playTimeTracker
+  id: JobDrone
+
 # Other ghosts
 
 - type: playTimeTracker
